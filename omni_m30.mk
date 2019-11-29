@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018 The TwrpBuilder Open-Source Project
+# Copyright (C) 2019 SD SkyKlouD
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,8 +16,8 @@
 #
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-PRODUCT_DEVICE := t20
-PRODUCT_NAME := omni_t20
+PRODUCT_DEVICE := m30
+PRODUCT_NAME := omni_m30
 PRODUCT_BRAND := teclast
-PRODUCT_MODEL := T20
+PRODUCT_MODEL := M30
 PRODUCT_MANUFACTURER := teclast

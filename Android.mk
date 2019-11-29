@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018 The TwrpBuilder Open-Source Project
+# Copyright (C) 2019 SD SkyKlouD
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +15,9 @@
 # limitations under the License.
 #
 
-ifneq ($(filter t20,$(TARGET_DEVICE)),)
+ifneq ($(filter m30,$(TARGET_DEVICE)),)
 
-LOCAL_PATH := device/teclast/t20/
+LOCAL_PATH := device/teclast/m30/
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
