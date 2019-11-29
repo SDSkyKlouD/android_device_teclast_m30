@@ -48,7 +48,7 @@ BOARD_SUPPRESS_EMMC_WIPE := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_INCLUDE_CRYPTO := true
 ifeq ($(TW_THEME),)
-TW_THEME := portrait_hdpi
+TW_THEME := landscape_hdpi
 endif
 RECOVERY_SDCARD_ON_DATA := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
