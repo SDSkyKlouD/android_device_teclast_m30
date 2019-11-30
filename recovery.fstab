@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018 The TwrpBuilder Open-Source Project
+# Copyright (C) 2019 SD SkyKlouD
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,11 +15,15 @@
 # limitations under the License.
 #
 
-/boot emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/boot
-/data ext4 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata flags=encryptable=/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/metadata
-/system ext4 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/system
-/cache ext4 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/cache
-/misc emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/para
-/recovery emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/recovery
-/external_sd vfat /dev/block/mmcblk1p1 /dev/block/mmcblk1 flags=display="Micro SDcard";storage;wipeingui;removable
+/boot        emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/boot
+/recovery    emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/recovery
+/misc        emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/para
+/logo        emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/logo                        flags=display="Logo"
+
+/data        ext4 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata                    flags=encryptable=/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/metadata
+/system      ext4 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/system
+/cache       ext4 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/cache
+/vendor      ext4 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/vendor                      flags=display="Vendor"
+
+/external_sd vfat /dev/block/mmcblk1p1                                           /dev/block/mmcblk1 flags=display="microSD";storage;wipeingui;removable
 
