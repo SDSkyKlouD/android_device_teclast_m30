@@ -51,7 +51,6 @@ TW_USE_TOOLBOX := true
 TW_NO_SCREEN_TIMEOUT := true
 TW_NO_CPU_TEMP := true
 TW_OEM_BUILD := true
-TW_EXTRA_LANGUAGES := true
 ifeq ($(TW_THEME),)
 TW_THEME := portrait_hdpi
 endif
