@@ -15,6 +15,6 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/teclast/m30/
+LOCAL_PATH := device/teclast/m30
 
 PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_m30.mk

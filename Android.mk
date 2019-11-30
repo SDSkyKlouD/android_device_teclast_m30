@@ -17,7 +17,7 @@
 
 ifneq ($(filter m30,$(TARGET_DEVICE)),)
 
-LOCAL_PATH := device/teclast/m30/
+LOCAL_PATH := device/teclast/m30
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
