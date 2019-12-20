@@ -19,6 +19,9 @@ This contains **ADB** and **Fastboot**, which are required to continue this proc
 If you already have it, then you can skip this section.
 
 ### Unlock bootloader
+**!!PRECAUTION!!** Unlocking bootloader will avoid warranty, and will cause the factory reset. Make sure your data are backed up before unlock!  
+I am no responsibilities about your warranty/data loss. I warned.  
+
   1. **Enable developer options**. [Android Developer document](https://developer.android.com/studio/debug/dev-options) explains how to do it.
   2. **Enable OEM unlocking**. In Settings - Developer options, find a setting titled **"OEM unlocking"** and turn it on. This allows you unlock bootloader using fastboot.
   3. **Also enable USB debugging**. This allows you use ADB from your PC/Mac.
